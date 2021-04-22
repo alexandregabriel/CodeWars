@@ -12,7 +12,5 @@ console.log(repeatStr(6, "I")); */
 
 // Cleverest solution (Using repeat(n))
 
-const repeatStr = (repNum, char) => {
-    return char.repeat(repNum)
-}
+const repeatStr = (repNum, char) => char.repeat(repNum)
 console.log(repeatStr(6, "I"))
